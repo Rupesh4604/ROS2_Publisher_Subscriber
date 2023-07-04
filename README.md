@@ -38,7 +38,12 @@ To create a ROS2 package, follow these steps:
 },
 
 ```
+5. Edit the 'package.xml' file and add the following dependencies for execution
 
+```
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+``` 
 ## Building and Running the Publisher and Subscriber
 
 To build and run the publisher and subscriber nodes, follow these steps:
