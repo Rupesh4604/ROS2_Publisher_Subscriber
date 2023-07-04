@@ -73,6 +73,8 @@ Do not forget to source the terminal every time you open a new terminal
 
 The publisher will start publishing messages, and the subscriber will receive and display the messages.
 
+The code is tested with python 3.8 , Ubuntu 20.04 - ROS2 Foxy 
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
